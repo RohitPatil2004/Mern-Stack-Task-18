@@ -51,8 +51,8 @@ const fetchData = async () => {
         }
         const data = await response.json();
         console.log(data);
-    } catch(error){
-        console.log('Error fetching data : ',error);
+    } catch(e){
+        console.log('Error fetching data : ',e);
     }
 };
 fetchData();
